@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap5',
     'accounts',
-    'pages'
+    'pages',
+    'articles'
 ]
 
 MIDDLEWARE = [
@@ -135,3 +136,5 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "boostrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+TIME_ZONE = "America/Denver"
